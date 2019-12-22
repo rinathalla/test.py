@@ -10,10 +10,6 @@ Question1 = input()
 print('Bot : Hi,I am your Personal Assistant how may I help you?')
 speak.Speak('Hi,I am your Personal Assistant how may I help you?')
 
-Question3 = input()
-print('Partly to mostly cloud 29c')
-speak.Speak('Partly to mostly cloud 29c?')
-
 print('Bot : May I Know your Name ?')
 speak.Speak('May I Know your Name ?')
 Name = input() #save answer
