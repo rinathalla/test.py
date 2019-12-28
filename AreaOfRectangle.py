@@ -23,7 +23,7 @@ class Triangle(Shape):
         self.height = h
 
     def area(self):
-        print("area of rectangle", (self.width * self.height) / 2)
+        print("area of triangle", (self.width * self.height) / 2)
 
 
 rectangle = Rectangle(10, 20)
