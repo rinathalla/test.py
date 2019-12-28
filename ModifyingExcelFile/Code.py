@@ -8,7 +8,7 @@ sheet['A1']='Rina'#to add value to column
 
 import os
 #to save to harddrive
-os.chdir('C:\\Users\\Administrator\\PycharmProjects\\Project1\\Screenshots')
+os.chdir('C:\\Users\\Administrator\\PycharmProjects\\Project\\Files')
 wb.save('example.xlsx') #Created copy of original file
 sheet2= wb.create_sheet() # creating a new sheet
 sheet2.title="Newsheet"
