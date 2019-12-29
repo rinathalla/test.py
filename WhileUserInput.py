@@ -1,6 +1,7 @@
 i = input("Enter Number : ")
-name = 'Rinaa'
+name = 'Rina'
 number = int(i)
-while(number < 10 and name =="Rina"):
-    print(number)
+while(number  < 5 and name =="Rina"):
     number = number * 2
+    print(number)
+    break
